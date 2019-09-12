@@ -1,17 +1,17 @@
 <template>
+  <div>
+  in main app
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <ActivityStream/>
+  </div>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import ActivityStream from './components/ActivityStream.vue'
 export default {
-  name: 'app',
-  components: {
-    HelloWorld
+  components:{
+    ActivityStream
   }
 }
 </script>
